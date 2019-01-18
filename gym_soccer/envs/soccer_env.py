@@ -60,7 +60,7 @@ class SoccerEnv(gym.Env, utils.EzPickle):
         """
         Get cost from each agent - i
         Get amount of power produced thermal and electric by each agent - i
-        Calculate amount of cost per agent - j
+        Calculate amount of cost per agent into a total - j
         Calculate total amount of income. - j
   
         
