@@ -58,6 +58,13 @@ class SoccerEnv(gym.Env, utils.EzPickle):
                           verbose=False, log_game=False,
                           log_dir="log"):
         """
+        Get cost from each agent - i
+        Get amount of power produced thermal and electric by each agent - i
+        Calculate amount of cost per agent - j
+        Calculate total amount of income. - j
+  
+        
+        
         Starts the Half-Field-Offense server.
         frames_per_trial: Episodes end after this many steps.
         untouched_time: Episodes end if the ball is untouched for this many steps.
